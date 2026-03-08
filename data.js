@@ -1,5 +1,5 @@
-// Seed data for the local Rohlik backend.
-// This does NOT come from the live Rohlik.cz API (there is no public one);
+// Seed data for the local backend.
+// This does NOT come from the live API (there is no public one);
 // it is a hand-curated dataset inspired by typical supermarket assortments.
 
 const categories = {
