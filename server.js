@@ -152,15 +152,13 @@ app.get('/api/v1/products', (req, res) => {
   res.json({ products: payload });
 });
 
-// let ip = '192.168.0.4';
-
 // Categories list: dictionary-of-objects format that RHParser+categories.m expects.
 app.get('/api/v1/categories', (req, res) => {
   res.json({ categories });
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, "192.168.0.18", () => {
   // eslint-disable-next-line no-console
-  console.log(`Rohlik backend listening on localhost:${PORT}`);
+  console.log(`Rohlik backend listening on 192.168.0.18":${PORT}`);
 });
 
