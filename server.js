@@ -157,8 +157,8 @@ app.get('/api/v1/categories', (req, res) => {
   res.json({ categories });
 });
 
-app.listen(PORT, "192.168.0.18", () => {
+app.listen(PORT, "192.168.0.9", () => {
   // eslint-disable-next-line no-console
-  console.log(`Rohlik backend listening on 192.168.0.18":${PORT}`);
+  console.log(`Rohlik backend listening on 192.168.0.9":${PORT}`);
 });
 
